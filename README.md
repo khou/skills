@@ -4,7 +4,7 @@ Cross-agent coding skills you can drop into Claude Code, Cursor, Codex CLI, Gemi
 
 ## What's a skill?
 
-An "Agent Skill" is a folder with a `SKILL.md` file that contains YAML frontmatter (`name`, `description`) and a markdown body describing how the agent should behave. The format is portable — the same folder works in every tool that adopted the spec.
+An "Agent Skill" is a folder with a `SKILL.md` file that contains YAML frontmatter (`name`, `description`) and a markdown body describing how the agent should behave. The format is portable: the same folder works in every tool that adopted the spec.
 
 ## Skills in this repo
 
@@ -89,7 +89,7 @@ Once installed, agents discover skills automatically based on the `description` 
 
 - Claude Code: `/local-review` (or just describe the task and the harness routes to the skill)
 - Cursor: ask the agent to do a local code review
-- Codex / Gemini / Copilot: same — describe the task
+- Codex / Gemini / Copilot: same, just describe the task
 
 ## Contributing
 
